@@ -30,3 +30,4 @@ dhcp-improved-xid-correct-byte-order.patch
 dhcp-4.2.4-dhclient-options-changed.patch
 ubuntu-dhcpd-conf.patch
 dhclient-write-pidfile-earlier.patch
+CVE-2021-25217.patch

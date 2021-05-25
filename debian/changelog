@@ -1,3 +1,11 @@
+isc-dhcp (4.4.1-2.1ubuntu5.20.04.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via incorrect option information parsing
+    - debian/patches/CVE-2021-25217.patch: fix parsing in common/parse.c.
+    - CVE-2021-25217
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 25 May 2021 06:50:22 -0400
+
 isc-dhcp (4.4.1-2.1ubuntu5.20.04.1) focal; urgency=medium
 
   * Fix env variable for INTERFACES (LP: #1894172)

@@ -1,3 +1,9 @@
+isc-dhcp (4.4.1-2.1ubuntu5.20.04.3) focal; urgency=medium
+
+  * d/apparmor/sbin.dhclient: fix apparmor="DENIED" errors (LP: #1918410)
+
+ -- Lukas Märdian <slyon@ubuntu.com>  Tue, 21 Jun 2022 12:44:45 +0200
+
 isc-dhcp (4.4.1-2.1ubuntu5.20.04.2) focal-security; urgency=medium
 
   * SECURITY UPDATE: DoS via incorrect option information parsing

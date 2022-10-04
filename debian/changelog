@@ -1,3 +1,16 @@
+isc-dhcp (4.4.1-2.1ubuntu5.20.04.4) focal-security; urgency=medium
+
+  * SECURITY UPDATE: option refcount overflow
+    - debian/patches/CVE-2022-2928.patch: correct reference counts in
+      common/options.c, common/tests/option_unittest.c.
+    - CVE-2022-2928
+  * SECURITY UPDATE: DHCP memory leak
+    - debian/patches/CVE-2022-2929.patch: properly free memory when hitting
+      errors in common/options.c.
+    - CVE-2022-2929
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 04 Oct 2022 08:36:23 -0400
+
 isc-dhcp (4.4.1-2.1ubuntu5.20.04.3) focal; urgency=medium
 
   * d/apparmor/sbin.dhclient: fix apparmor="DENIED" errors (LP: #1918410)
